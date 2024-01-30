@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/questions")
@@ -22,8 +23,15 @@ public class questionController {
     }
 
     @GetMapping
-    public ResponseEntity<List<question>> getAllQuestions(){
-        List<question> questions= questionService.getAllQuestions();
+    public ResponseEntity<List<question>> getQuestionsByRubrique(
+            @RequestParam(name= "rubrique",required = false,defaultValue = "all") String rubrique){
+        List<question> questions;
+        if(rubrique.equals("all")){
+           questions= questionService.getAllQuestions();
+        }else {
+           questions= questionService.getQuestionsByRubrique(rubrique);
+        }
+
         return new ResponseEntity<>(questions, HttpStatus.OK);
     }
 

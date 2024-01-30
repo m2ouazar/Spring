@@ -45,6 +45,20 @@ public class questionService {
         return null;
     }
 
+
+    //GET ALL QUESTIONS
+    //RANDOM ORDER FOR QUESTIONS
+    //RANDOM ORDER FOR ANSWERS OF A QUESTION
+    public List<question> getQuestionsByRubrique(String rubrique){
+        List<question> randomList= new ArrayList<>(questionRepository.findByRubrique(rubrique));
+        randomList.forEach(a->{
+            List<String> opt=a.getOptions();
+            Collections.shuffle(opt);
+        });
+        Collections.shuffle(randomList);
+        return randomList;
+    }
+
     //POST QUESTION
     public question saveQuestion(question question){
         return questionRepository.save(question);

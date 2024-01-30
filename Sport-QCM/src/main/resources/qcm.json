@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Quelle équipe a remporté la Coupe du Monde de la FIFA 2018 ?",
+    "options": ["France", "Brésil", "Allemagne", "Espagne"],
+    "correctAnswer": "France",
+    "rubrique": "Football"
+  },
+  {
+    "question": "Qui a remporté la médaille d'or en athlétisme lors des Jeux Olympiques de 2020 (reportés en 2021) dans la catégorie du 100 mètres masculin ?",
+    "options": ["Usain Bolt", "Justin Gatlin", "Trayvon Bromell", "Andre De Grasse"],
+    "correctAnswer": "Andre De Grasse",
+    "rubrique": "Athlétisme"
+  },
+  {
+    "question": "Quel joueur de tennis détient le record du plus grand nombre de victoires en Grand Chelem en simple chez les hommes ?",
+    "options": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
+    "correctAnswer": "Novak Djokovic",
+    "rubrique": "Tennis"
+  },
+  {
+    "question": "Quelle équipe a remporté la Coupe du Monde de rugby en 2019 ?",
+    "options": ["Nouvelle-Zélande", "Afrique du Sud", "Australie", "Angleterre"],
+    "correctAnswer": "Afrique du Sud",
+    "rubrique": "Rugby"
+  },
+  {
+    "question": "Qui est le meilleur buteur de tous les temps en Ligue des champions de l'UEFA ?",
+    "options": ["Lionel Messi", "Cristiano Ronaldo", "Raul", "Robert Lewandowski"],
+    "correctAnswer": "Cristiano Ronaldo",
+    "rubrique": "Football"
+  },
+  {
+    "question": "Quel pays a remporté le plus de médailles d'or aux Jeux Olympiques d'été de 2016 ?",
+    "options": ["États-Unis", "Chine", "Royaume-Uni", "Russie"],
+    "correctAnswer": "États-Unis",
+    "rubrique": "Jeux Olympiques"
+  },
+  {
+    "question": "Qui a détenu le record du monde du saut en hauteur masculin pendant plus de 20 ans avant d'être battu par Javier Sotomayor ?",
+    "options": ["Sergey Bubka", "Javier Sotomayor", "Dick Fosbury", "Mutaz Essa Barshim"],
+    "correctAnswer": "Sergey Bubka",
+    "rubrique": "Athlétisme"
+  },
+  {
+    "question": "Quelle équipe de baseball a remporté le plus de Séries mondiales de la MLB ?",
+    "options": ["New York Yankees", "Los Angeles Dodgers", "Boston Red Sox", "St. Louis Cardinals"],
+    "correctAnswer": "New York Yankees",
+    "rubrique": "Baseball"
+  },
+  {
+    "question": "Qui est le recordman du monde du marathon masculin ?",
+    "options": ["Eliud Kipchoge", "Kenenisa Bekele", "Dennis Kipruto Kimetto", "Haile Gebrselassie"],
+    "correctAnswer": "Eliud Kipchoge",
+    "rubrique": "Athlétisme"
+  },
+  {
+    "question": "Quel golfeur détient le record du plus grand nombre de victoires en tournois majeurs ?",
+    "options": ["Jack Nicklaus", "Tiger Woods", "Rory McIlroy", "Phil Mickelson"],
+    "correctAnswer": "Jack Nicklaus",
+    "rubrique": "Golf"
+  },
+  {
+    "question": "Quelle équipe nationale de basketball a remporté le plus de médailles d'or aux Jeux Olympiques ?",
+    "options": ["États-Unis", "Russie", "Serbie", "Australie"],
+    "correctAnswer": "États-Unis",
+    "rubrique": "Basketball"
+  },
+  {
+    "question": "Qui a remporté le Ballon d'Or FIFA en 2021 ?",
+    "options": ["Lionel Messi", "Cristiano Ronaldo", "Robert Lewandowski", "Mohamed Salah"],
+    "correctAnswer": "Lionel Messi",
+    "rubrique": "Football"
+  },
+  {
+    "question": "Quel pays a accueilli les Jeux Olympiques d'été de 2008 ?",
+    "options": ["États-Unis", "Chine", "Australie", "Royaume-Uni"],
+    "correctAnswer": "Chine",
+    "rubrique": "Jeux Olympiques"
+  },
+  {
+    "question": "Qui a détenu le record du monde du 100 mètres masculin avant Usain Bolt ?",
+    "options": ["Carl Lewis", "Asafa Powell", "Tyson Gay", "Justin Gatlin"],
+    "correctAnswer": "Asafa Powell",
+    "rubrique": "Athlétisme"
+  },
+  {
+    "question": "Quel pays a remporté le plus de médailles aux Jeux Olympiques d'hiver de 2018 ?",
+    "options": ["Norvège", "Allemagne", "Canada", "États-Unis"],
+    "correctAnswer": "Norvège",
+    "rubrique": "Jeux Olympiques"
+  },
+  {
+    "question": "Qui est le seul joueur à avoir remporté le Grand Chelem en tennis dans une seule année à deux reprises ?",
+    "options": ["Rod Laver", "Novak Djokovic", "Rafael Nadal", "Roger Federer"],
+    "correctAnswer": "Rod Laver",
+    "rubrique": "Tennis"
+  },
+  {
+    "question": "Quel pays a remporté le plus de médailles d'or aux Jeux Olympiques d'été de 2012 ?",
+    "options": ["Chine", "États-Unis", "Russie", "Royaume-Uni"],
+    "correctAnswer": "Chine",
+    "rubrique": "Jeux Olympiques"
+  },
+  {
+    "question": "Qui est le meilleur buteur de l'histoire de la NBA ?",
+    "options": ["LeBron James", "Kareem Abdul-Jabbar", "Kobe Bryant", "Michael Jordan"],
+    "correctAnswer": "Kareem Abdul-Jabbar",
+    "rubrique": "Basketball"
+  },
+  {
+    "question": "Quelle équipe a remporté la dernière édition de la Coupe du Monde de cricket en 2019 ?",
+    "options": ["Inde", "Australie", "Angleterre", "Nouvelle-Zélande"],
+    "correctAnswer": "Angleterre",
+    "rubrique": "Cricket"
+  },
+  {
+    "question": "Quel nageur détient le record du monde du 200 mètres nage libre masculin ?",
+    "options": ["Michael Phelps", "Ryan Lochte", "Sun Yang", "Ian Thorpe"],
+    "correctAnswer": "Michael Phelps",
+    "rubrique": "Natation"
+  }
+]

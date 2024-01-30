@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Collection;
 import java.util.List;
 
-@Document(collection = "qcm_football")
+@Document(collection = "questions")
 public class question {
 
     @Id
@@ -14,15 +14,17 @@ public class question {
     private String question;
     private List<String> options;
     private String correctAnswer;
+    private String rubrique;
 
 
     public question() {
     }
 
-    public question(String question, List<String> options, String correctAnswer) {
+    public question(String question, List<String> options, String correctAnswer, String rubrique) {
         this.question = question;
         this.options = options;
         this.correctAnswer = correctAnswer;
+        this.rubrique = rubrique;
     }
 
 
@@ -56,5 +58,13 @@ public class question {
 
     public void setCorrectAnswer(String correctAnswer) {
         this.correctAnswer = correctAnswer;
+    }
+
+    public String getRubrique() {
+        return rubrique;
+    }
+
+    public void setRubrique(String rubrique) {
+        this.rubrique = rubrique;
     }
 }
